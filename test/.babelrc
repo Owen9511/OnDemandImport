@@ -1,0 +1,11 @@
+{
+    "presets": [
+      "@babel/preset-env"
+    ],
+    // 2.借助babel-plugin-import引入
+    // "plugins": [["import",{
+    //     "libraryName": "my-compo-test",
+    //     "libraryDirectory": "lib/components",
+    //     "style": "style/index.css"
+    // }]]
+}

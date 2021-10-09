@@ -1,0 +1,29 @@
+{
+  "name": "my-compo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "sideEffects": false,
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "mini-css-extract-plugin": "^2.4.1",
+    "rollup": "^2.58.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "scripts": {
+    "build-webpack": "webpack",
+    "build-rollup": "rollup --config"
+  },
+  "author": "",
+  "license": "ISC"
+}
