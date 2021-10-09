@@ -1,0 +1,15 @@
+{
+  "name": "@my-compo-test/main",
+  "_globalName": "main",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config ../../rollup.config.js"
+  },
+  "dependencies": {
+    "@my-compo-test/button": "^0.0.1",
+    "@my-compo-test/alert": "^0.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

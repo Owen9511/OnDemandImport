@@ -1,0 +1,11 @@
+{
+  "name": "@my-compo-test/button",
+  "_globalName": "button",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config ../../rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -39,9 +39,4 @@ function alert(){
     return 'alert'
 }
 
-var index = {
-    Button: button,
-    Alert: alert
-};
-
-export { index as default };
+export { alert as Alert, button as Button };

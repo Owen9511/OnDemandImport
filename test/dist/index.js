@@ -7,7 +7,8 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ index)
+/* harmony export */   "Alert": () => (/* binding */ alert),
+/* harmony export */   "Button": () => (/* binding */ button)
 /* harmony export */ });
 function styleInject(css, ref) {
   if (ref === void 0) ref = {};
@@ -52,10 +53,6 @@ function alert() {
   return 'alert';
 }
 
-var index = {
-  Button: button,
-  Alert: alert
-};
 
 
 /***/ })
@@ -129,6 +126,12 @@ console.log(my_compo_test__WEBPACK_IMPORTED_MODULE_0__.Button); // 1.手动按�
 // console.log(Button)
 // 3.借助tree-shaking
 // import {Button} from 'my-compo-test'
+// console.log(Button)
+// 4.使用monorepo的按需引入
+// import Button from '@my-compo-test/button'
+// console.log(Button)
+// 4.使用monorepo的全部引入
+// import {Button} from '@my-compo-test/main'
 // console.log(Button)
 })();
 

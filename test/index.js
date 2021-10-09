@@ -19,3 +19,13 @@ console.log(Button)
 // import {Button} from 'my-compo-test'
 
 // console.log(Button)
+
+// 4.使用monorepo的按需引入
+// import Button from '@my-compo-test/button'
+
+// console.log(Button)
+
+// 4.使用monorepo的全部引入
+// import {Button} from '@my-compo-test/main'
+
+// console.log(Button)
